@@ -1,0 +1,104 @@
+   .box
+      { background-color: #e8f4f8;
+       padding: 16px;
+       margin-bottom: 12px;
+       border-radius:8px;
+       border: 1px solid #b3d9e6;}
+
+   .box.specjalny {
+  background-color: #fff3cd;
+  border: 2px solid #ffc107;
+}
+   #naglowek{
+      background-color: #2c3e50;
+      color: white;
+      padding: 24px;
+      text-align: center;}
+
+   #stopka{
+      background-color: #34495e;
+      color: #ecf0f1;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+   }
+
+.nazwa-produktu{
+    color: #2980b9;
+    margin-top: 0;
+   }  
+   .karta{
+    color: #2980b9;
+    margin-top: 0;
+   }
+.info, .wazny{
+      color: #c0392b;
+      font-weight: bold;
+      background-color: #fdecea;
+      padding: 8px}
+
+.naglowek-sekcji, h1.tytul {
+  font-family: Georgia, serif;
+  color: #1a5276;
+}
+.cena, .przycisk {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+ul.lista li.wazny {
+  color: #8e44ad;
+  font-weight: bold;
+  list-style-type: square;
+}
+
+#formularz-kontakt .pole {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+}
+
+.przycisk {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.karta {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  max-width: 320px;
+}
+
+.karta.wyrozniona {
+  border-color: #f39c12;
+  box-shadow: 0 4px 12px rgba(243, 156, 18, 0.3);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: #f5f6fa;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.podtytul, .tekst-stopki {
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
